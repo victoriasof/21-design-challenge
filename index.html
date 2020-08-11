@@ -10,51 +10,125 @@
 
 <form>
 
+    <div>
+        Name
+        <div>
+            <label for="first1">First</label>
+            <input type="text" name="first1" id="first1" required>
+        </div>
+        <div>
+            <label for="last1">Last</label>
+            <input type="text" name="last1" id="last1" required>
+        </div>
+    </div>
 
+    <div>
+        Gender
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+    </div>
 
+    <div>
+        <label for="date">Date of Birth</label>
+        <input type="date" name="date" id="date">
+    </div>
+
+    <div>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+    </div>
+
+    <div>
+        Emergency Contact
+        <div>
+            <label for="first">First</label>
+            <input type="text" name="first" id="first" required>
+        </div>
+        <div>
+            <label for="last">Last</label>
+            <input type="text" name="last" id="last" required>
+    </div>
+
+    <div>
+        <label for="relationship">Relationship</label>
+        <input type="text" name="relationship" id="relationship">
+    </div>
+        Address
+        <div>
+           <label for="street1">Street Address</label>
+           <input type="text" name="street1" id="street1">
+        </div>
+        <div>
+            <label for="street2">Address Line 2</label>
+            <input type="text" name="street2" id="street2">
+        </div>
+        <div>
+            <label for="city">City</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div>
+            <label for="state">State / Province / Region</label>
+            <input type="text" name="state" id="state">
+        </div>
+        <div>
+            <label for="zip">Postal / Zip Code</label>
+            <input type="number" name="zip" id="zip">
+        </div>
+        <div>
+           <label for="country">Country</label>
+           <input type="text" name="country" id="country">
+
+        </div>
+
+   <div>
+       <div>
+           <label for="home">Home Phone</label>
+           <input type="number" name="home" id="home">
+       </div>
+       <div>
+           <label for="work">Work Phone</label>
+           <input type="number" name="work" id="work">
+       </div>
+   </div>
+   <div>
+       Medical information
+       <div>
+           <label for="clinic">Hospital / Clinic Preference</label>
+           <input type="text" name="clinic" id="clinic">
+       </div>
+       <div>
+           <label for="insurance">Insurance Company</label>
+           <input type="text" name="insurance" id="insurance">
+       </div>
+       <div>
+           <label for="policy">Policy Number</label>
+           <input type="text" name="policy" id="policy">
+       </div>
+       <div>
+           <label for="physician">Physician's Name</label>
+           <input type="text" name="physician" id="physician">
+       </div>
+       <div>
+           <label for="phone">Phone Number</label>
+           <input type="number" name="phone" id="phone">
+       </div>
+
+   </div>
+   <div>
+       <label for="alergies">Allergies / Special Health Considerations</label>
+       <input type="text" name="alergies" id="alergies">
+   </div>
+      <div>
+          <button type="submit">Submit</button>
+      </div>
+    </div>
 </form>
-
-Name
-First Last
-
-Gender             Date of Birth
-Male                  /   /
-                    MM  DD  YYYY
-
-Emergency Contact
-Name                Relationship
-
-First              Last
-
-Address
-
-Street Address
-
-Address Line 2
-
-City                    State / Province / Region
-
-Postal / Zip Code       Country
-
-Home Phone           Work Phone
-    -   -               -     -
-###  ###  ###         ###    ###    ###
-
-----
-
-Medical Information
-Hospital / Clinic Preference
-
-Insurance company              Policy Number
-Physician's Name               Phone Number
-                                  -    -
-                                ###    ###   ###
-
-Allergies / Special Health Considerations
-
-
-Submit
-
 
 </body>
 </html>

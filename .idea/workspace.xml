@@ -22,7 +22,6 @@
     <list default="true" id="8682cfc1-8d88-40f7-af1c-390203ea65f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +64,13 @@
       <option name="presentableId" value="Default" />
       <updated>1596717562730</updated>
       <workItem from="1596717564012" duration="717000" />
-      <workItem from="1596718647825" duration="4915000" />
+      <workItem from="1596718647825" duration="5283000" />
+      <workItem from="1596782229025" duration="59000" />
+      <workItem from="1596783446775" duration="599000" />
+      <workItem from="1596802525078" duration="6162000" />
+      <workItem from="1596970419870" duration="1181000" />
+      <workItem from="1597043095413" duration="710000" />
+      <workItem from="1597156174055" duration="2227000" />
     </task>
     <servers />
   </component>
@@ -82,5 +88,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597045612122">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1597045612122" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1596970650345">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1596970650345" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1596971417321">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1596971417321" />
   </component>
 </project>
