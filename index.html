@@ -1,134 +1,211 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medical Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Form</title>
+
 </head>
+
 <body>
-<form>
-    <div>
-        Name
-        <div>
-            <label for="first1">First</label>
-            <input type="text" name="first1" id="first1" required>
-        </div>
-        <div>
-            <label for="last1">Last</label>
-            <input type="text" name="last1" id="last1" required>
-        </div>
-    </div>
 
-    <div>
-        Gender
-        <div>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male" value="male">
-        </div>
-        <div>
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female" value="female">
-        </div>
-    </div>
+<div class="container">
 
-    <div>
-        <label for="date">Date of Birth</label>
-        <input type="date" name="date" id="date">
-    </div>
+    <h4>Emergency Contact and Medical Information</h4>
+    <hr>
 
-    <div>
-        <label for="age">Age</label>
-        <input type="number" name="age" id="age">
-    </div>
+    <form class="form-control-sm">
 
-    <div>
-        Emergency Contact
-        <div>
-            <label for="first">First</label>
-            <input type="text" name="first" id="first" required>
-        </div>
-        <div>
-            <label for="last">Last</label>
-            <input type="text" name="last" id="last" required>
-    </div>
 
-    <div>
-        <label for="relationship">Relationship</label>
-        <input type="text" name="relationship" id="relationship">
-    </div>
-        Address
-        <div>
-           <label for="street1">Street Address</label>
-           <input type="text" name="street1" id="street1">
-        </div>
-        <div>
-            <label for="street2">Address Line 2</label>
-            <input type="text" name="street2" id="street2">
-        </div>
-        <div>
-            <label for="city">City</label>
-            <input type="text" name="city" id="city">
-        </div>
-        <div>
-            <label for="state">State / Province / Region</label>
-            <input type="text" name="state" id="state">
-        </div>
-        <div>
-            <label for="zip">Postal / Zip Code</label>
-            <input type="number" name="zip" id="zip">
-        </div>
-        <div>
-           <label for="country">Country</label>
-           <input type="text" name="country" id="country">
+        <div class="row">
+
+            <p class="font-weight-bold">Name</p>
+
+            <div class="col">
+                <label class="label" for="first1">First</label>
+                <input type="text" name="first1" id="first1" required>
+
+            </div>
+
+            <div class="col">
+                <label for="last1">Last</label>
+                <input type="text" name="last1" id="last1" required>
+            </div>
 
         </div>
 
-   <div>
-       <div>
-           <label for="home">Home Phone</label>
-           <input type="number" name="home" id="home">
-       </div>
-       <div>
-           <label for="work">Work Phone</label>
-           <input type="number" name="work" id="work">
-       </div>
-   </div>
-   <div>
-       Medical information
-       <div>
-           <label for="clinic">Hospital / Clinic Preference</label>
-           <input type="text" name="clinic" id="clinic">
-       </div>
-       <div>
-           <label for="insurance">Insurance Company</label>
-           <input type="text" name="insurance" id="insurance">
-       </div>
-       <div>
-           <label for="policy">Policy Number</label>
-           <input type="text" name="policy" id="policy">
-       </div>
-       <div>
-           <label for="physician">Physician's Name</label>
-           <input type="text" name="physician" id="physician">
-       </div>
-       <div>
-           <label for="phone">Phone Number</label>
-           <input type="number" name="phone" id="phone">
-       </div>
+        <div class="row">
 
-   </div>
-   <div>
-       <label for="allergies">Allergies / Special Health Considerations</label>
-       <input type="text" name="allergies" id="allergies">
-   </div>
-      <div>
-          <button type="submit">Submit</button>
-      </div>
-    </div>
-</form>
+            <p class="font-weight-bold">Gender</p>
 
+            <div class="col">
+
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+
+                </select>
+
+            </div>
+
+            <div class="col">
+                <label for="date" class="font-weight-bold">Date of Birth</label>
+                <input type="date" name="date" id="date">
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div>
+            <h5>Emergency Contact</h5>
+
+            <div class="row">
+
+                <p class="font-weight-bold">Name</p>
+
+                <div class="col">
+                    <label class="label" for="first1">First</label>
+                    <input type="text" name="first1" id="first1" required>
+
+                </div>
+
+                <div class="col">
+                    <label for="last1">Last</label>
+                    <input type="text" name="last1" id="last1" required>
+                </div>
+
+                <div class="col">
+                    <label for="relationship">Relationship</label>
+                    <input type="text" name="relationship" id="relationship">
+                </div>
+            </div>
+
+            <p class="font-weight-bold">Address</p>
+
+            <div class="row">
+                <label for="street1">Street Address</label>
+                <input type="text" name="street1" id="street1">
+            </div>
+            <div class="row">
+                <label for="street2">Address Line 2</label>
+                <input type="text" name="street2" id="street2">
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">
+                </div>
+
+                <div class="col">
+                    <label for="state">State / Province / Region</label>
+                    <input type="text" name="state" id="state">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <label for="zip">Postal / Zip Code</label>
+                    <input type="number" name="zip" id="zip">
+                </div>
+                <div class="col">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value=""></option>
+
+                    </select>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <label for="home" class="font-weight-bold">Home Phone</label>
+                    <input type="tel" name="home" id="home">
+                </div>
+                <div class="col">
+                    <label for="work" class="font-weight-bold">Work Phone</label>
+                    <input type="tel" name="work" id="work">
+                </div>
+            </div>
+
+            <hr>
+
+            <div>
+                <h5>Medical information</h5>
+
+                <div class="row">
+                    <label for="clinic" class="font-weight-bold">Hospital / Clinic Preference</label>
+                    <input type="text" name="clinic" id="clinic">
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label for="insurance" class="font-weight-bold">Insurance Company</label>
+                        <input type="text" name="insurance" id="insurance">
+                    </div>
+                    <div class="col">
+                        <label for="policy" class="font-weight-bold">Policy Number</label>
+                        <input type="text" name="policy" id="policy">
+                    </div>
+                </div>
+
+                <div class=row>
+                    <div class="col">
+                        <label for="physician" class="font-weight-bold">Physician's Name</label>
+                        <input type="text" name="physician" id="physician">
+                    </div>
+                    <div class="col">
+                        <label for="phone" class="font-weight-bold">Phone Number</label>
+                        <input type="tel" name="phone" id="phone">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <label for="allergies" class="font-weight-bold">Allergies / Special Health Considerations</label>
+                    <input type="text" name="allergies" id="allergies">
+                </div>
+
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

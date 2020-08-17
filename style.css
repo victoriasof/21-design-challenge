@@ -1,5 +1,8 @@
-.outline-mode * {
-    outline: 1px solid #000;
-}
+.label {
+  display: inline-block;
+  position: relative; }
 
+.label {
+  display: inline-block; }
 
+/*# sourceMappingURL=style.css.map */
